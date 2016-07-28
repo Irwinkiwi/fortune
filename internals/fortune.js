@@ -10,12 +10,8 @@ module.exports = {
  mongoClient.connect(connectionString,
             function (err, db) {
                 if (err) {
-                    console.log("> ERROR al conectarse a" +
-                        "la base de datos:"+
-                         connectionString);
-                    var fortunePaper = {
-                        "message":
-                        "La honestidad es un regalo caro no lo esperes de gente barata"
+                    console.log("> ERROR al conectarse a" + "la base de datos:" + connectionString);
+                    var fortunePaper = { "message": "La honestidad es un regalo caro no lo esperes de gente barata"
                     };
                     // Convirtiendo el fortunePaper de objecto a su version de string
  
