@@ -1,0 +1,34 @@
+{
+  "name": "lab02-httpserver",
+  "version": "1.0.0",
+  "description": "servidor http basico ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Irwinkiwi/pwm-server.git"
+  },
+  "keywords": [
+    "server",
+    "node",
+    "satic",
+    "javascript"
+  ],
+  "author": "irwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Irwinkiwi/pwm-server/issues"
+  },
+  "homepage": "https://github.com/Irwinkiwi/pwm-server#readme",
+  "dependencies": {
+    "mongodb": "^2.2.4",
+    "colors": "^1.1.2",
+    "mime": "^1.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}
